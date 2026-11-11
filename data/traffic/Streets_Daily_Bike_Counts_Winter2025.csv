@@ -1,0 +1,73 @@
+﻿count_id,location_name,month,season,year,date,weather,lat,long,day_bikes,day_veh,day_total,day_share,am_bike,am_veh,am_share,pm_bike,pm_veh,pm_share,month_id,notes,ObjectId,x,y
+74,Tremont Street north of School Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3586,-71.06,516,12412,12928,4,96,1476,6.1,106,1783,5.6,12,,65,-71.06,42.3586
+1,A Street north of Iron Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3459,-71.052,343,10993,11336,3,79,1799,4.2,74,1024,6.7,12,,70,-71.052,42.3459
+55,Southwest Corridor Bicycle Path south of Heath Street,December,Winter,2025,2025-12-10T05:00:00,"High 48°, Low 32°, Fair",42.3238,-71.0996,751,0,751,100,193,0,100,159,0,100,12,,125,-71.0996,42.3238
+45,Meridian Street south of Nay Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3829,-71.0393,27,19407,19434,0.1,3,2231,0.1,10,3087,0.3,12,,142,-71.0393,42.3829
+20,Chestnut Hill Avenue north of Embassy Road,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3417,-71.1544,96,12427,12523,0.8,23,1596,1.4,14,1710,0.8,12,,147,-71.1544,42.3417
+62,Washington Street south of Hayward Place,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3528,-71.0626,439,3649,4088,10.7,78,354,18.1,59,549,9.7,12,,184,-71.0626,42.3528
+44,Massachusetts Avenue north of Back Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3532,-71.0906,2924,22205,25129,11.6,537,2721,16.5,597,3353,15.1,12,,196,-71.0906,42.3532
+71,Charles Street north of Boylston Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.353,-71.0676,349,15545,15894,2.2,49,1700,2.8,91,2344,3.7,12,,207,-71.0676,42.353
+77,Tremont Street west of Union Park,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3434,-71.0727,313,11808,12121,2.6,54,1420,3.7,55,1475,3.6,12,,240,-71.0727,42.3434
+75,Huntington Avenue west of Evans Way,December,Winter,2025,2025-12-09T05:00:00,"High 32°, Low 14°, Fair",42.3365,-71.0986,390,21887,22277,1.8,67,2675,2.4,89,2556,3.4,12,,259,-71.0986,42.3365
+73,Tremont Street north of Boylston Street,December,Winter,2025,2025-12-09T05:00:00,"High 32°, Low 14°, Fair",42.3541,-71.0639,443,12453,12896,3.4,57,1245,4.4,121,1605,7,12,,294,-71.0639,42.3541
+54,South Huntington Avenue south of Castleton Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3224,-71.1121,162,10086,10248,1.6,26,1447,1.8,27,1222,2.2,12,,366,-71.1121,42.3224
+91,Meridian Street south of Nay Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3829,-71.0393,103,19407,19510,0.5,3,2231,0.1,10,3087,0.3,12,collected for street and sidewalk,506,-71.0393,42.3829
+31,Dorchester Avenue north of Doris Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3137,-71.057,166,13487,13653,1.2,21,1426,1.5,31,1632,1.9,12,,560,-71.057,42.3137
+19,Charles Street north of Revere Street,December,Winter,2025,2025-12-10T05:00:00,"High 48°, Low 32°, Fair",42.3597,-71.0708,346,5083,5429,6.4,95,598,13.7,35,772,4.3,12,,573,-71.0708,42.3597
+66,Western Avenue west of Waverly Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3622,-71.1419,282,10022,10304,2.7,55,1361,3.9,70,1503,4.5,12,,603,-71.1419,42.3622
+70,Boylston Street east of Arlington Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3522,-71.0694,739,10798,11537,6.4,204,1306,13.5,128,1704,7,12,,654,-71.0694,42.3522
+58,Warren Street north of Walnut Avenue,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3244,-71.0829,156,21806,21962,0.7,24,2531,0.9,23,2705,0.8,12,,662,-71.0829,42.3244
+58,Warren Street north of Walnut Avenue,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3244,-71.0829,157,21215,21372,0.7,17,2514,0.7,23,2568,0.9,12,,788,-71.0829,42.3244
+1,A Street north of Iron Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3459,-71.052,356,11474,11830,3,81,1582,4.9,75,1298,5.5,12,,843,-71.052,42.3459
+23,Columbus Avenue west of Holyoke Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3441,-71.0775,305,10096,10401,2.9,74,1196,5.8,64,1408,4.3,12,,910,-71.0775,42.3441
+68,Arlington Street south of Marlborough Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3545,-71.072,390,19222,19612,2,93,2455,3.6,89,2428,3.5,12,,980,-71.072,42.3545
+20,Chestnut Hill Avenue north of Embassy Road,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3417,-71.1544,72,12837,12909,0.6,17,1704,1,15,1763,0.8,12,,1030,-71.1544,42.3417
+16,Centre Street north of Harris Avenue,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3113,-71.1145,176,12066,12242,1.4,31,1461,2.1,37,1464,2.5,12,,1054,-71.1145,42.3113
+73,Tremont Street north of Boylston Street,December,Winter,2025,2025-12-10T05:00:00,"High 48°, Low 32°, Fair",42.3541,-71.0639,550,12511,13061,4.2,57,1248,4.4,135,1603,7.8,12,,1095,-71.0639,42.3541
+70,Boylston Street east of Arlington Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3522,-71.0694,680,7794,8474,8,163,595,21.5,132,1525,8,12,,1206,-71.0694,42.3522
+42,Massachusetts Avenue south of Newmarket Square,December,Winter,2025,2025-12-09T05:00:00,"High 32°, Low 14°, Fair",42.3261,-71.0662,254,18975,19229,1.3,41,2127,1.9,47,2564,1.8,12,,1227,-71.0662,42.3261
+56,Summer Street east of Dorchester Avenue,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.351,-71.0519,473,17567,18040,2.6,93,2756,3.3,105,2142,4.7,12,,1361,-71.0519,42.351
+16,Centre Street north of Harris Avenue,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3113,-71.1145,218,12527,12745,1.7,39,1463,2.6,46,1496,3,12,,1498,-71.1145,42.3113
+52,Seaport Boulevard west of Sleeper Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3537,-71.0497,707,25592,26299,2.7,147,3015,4.6,166,3233,4.9,12,,1508,-71.0497,42.3537
+15,Cambridge Street west of Staniford Street,December,Winter,2025,2025-12-10T05:00:00,"High 48°, Low 32°, Fair",42.3613,-71.0642,754,18316,19070,4,143,2566,5.3,178,2460,6.7,12,,1516,-71.0642,42.3613
+69,Beacon Street west of Charles Street,December,Winter,2025,2025-12-09T05:00:00,"High 32°, Low 14°, Fair",42.356,-71.0703,498,18413,18911,2.6,65,2043,3.1,146,2959,4.7,12,,1555,-71.0703,42.356
+15,Cambridge Street west of Staniford Street,December,Winter,2025,2025-12-09T05:00:00,"High 32°, Low 14°, Fair",42.3613,-71.0642,588,19099,19687,3,116,2750,4,150,2700,5.3,12,,1557,-71.0642,42.3613
+91,Meridian Street south of Nay Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3829,-71.0393,89,19622,19711,0.5,4,2021,0.2,3,2441,0.1,12,collected for street and sidewalk,1604,-71.0393,42.3829
+38,Longwood Avenue east of Pilgrim Road,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3392,-71.1078,750,9874,10624,7.1,163,1330,10.9,158,1238,11.3,12,,1605,-71.1078,42.3392
+18,Charles River Dam Bridge west of Leverett Circle,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3671,-71.0689,812,37106,37918,2.1,164,4394,3.6,180,4157,4.2,12,,1614,-71.0689,42.3671
+72,Stuart Street east of Tremont Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.351,-71.0642,473,18825,19298,2.5,69,2166,3.1,98,2369,4,12,,1671,-71.0642,42.351
+23,Columbus Avenue west of Holyoke Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3441,-71.0775,189,9545,9734,1.9,10,1105,0.9,60,1332,4.3,12,,1681,-71.0775,42.3441
+89,Boylston Street west of Tremont Street,December,Winter,2025,2025-12-10T05:00:00,"High 48°, Low 32°, Fair",42.3525,-71.065,958,7683,8641,11.1,243,999,19.6,162,997,14,12,,1718,-71.065,42.3525
+38,Longwood Avenue east of Pilgrim Road,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3392,-71.1078,780,9944,10724,7.3,178,1285,12.2,142,1162,10.9,12,,1719,-71.1078,42.3392
+71,Charles Street north of Boylston Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.353,-71.0676,317,14061,14378,2.2,43,1764,2.4,94,1930,4.6,12,,1726,-71.0676,42.353
+37,Longfellow Bridge west of Charles Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3614,-71.0734,992,18934,19926,5,219,2327,8.6,249,3033,7.6,12,,1735,-71.0734,42.3614
+77,Tremont Street west of Union Park,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3434,-71.0727,314,10841,11155,2.8,49,1331,3.6,62,1385,4.3,12,,1744,-71.0727,42.3434
+26,Commonwealth Avenue west of Silber Way,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3496,-71.102,862,14467,15329,5.6,129,1860,6.5,137,1909,6.7,12,,1754,-71.102,42.3496
+37,Longfellow Bridge west of Charles Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3614,-71.0734,1136,19672,20808,5.5,281,2366,10.6,267,2744,8.9,12,,1776,-71.0734,42.3614
+60,Washington Street north of Bexley Road,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.2883,-71.1261,275,15607,15882,1.7,58,1944,2.9,55,1966,2.7,12,,1837,-71.1261,42.2883
+39,Main Street south of Sullivan Square,December,Winter,2025,2025-12-10T05:00:00,"High 48°, Low 32°, Fair",42.384,-71.0725,228,15294,15522,1.5,54,2185,2.4,48,1896,2.5,12,,1889,-71.0725,42.384
+18,Charles River Dam Bridge west of Leverett Circle,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3671,-71.0689,871,39507,40378,2.2,208,4615,4.3,207,4115,4.8,12,,1902,-71.0689,42.3671
+60,Washington Street north of Bexley Road,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.2883,-71.1261,235,15693,15928,1.5,43,1936,2.2,63,2025,3,12,,1928,-71.1261,42.2883
+44,Massachusetts Avenue north of Back Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3532,-71.0906,2900,22910,25810,11.2,649,2842,18.6,526,3158,14.3,12,,2132,-71.0906,42.3532
+42,Massachusetts Avenue south of Newmarket Square,December,Winter,2025,2025-12-10T05:00:00,"High 48°, Low 32°, Fair",42.3261,-71.0662,361,19310,19671,1.8,60,2269,2.6,51,2474,2,12,,2140,-71.0662,42.3261
+72,Stuart Street east of Tremont Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.351,-71.0642,445,19688,20133,2.2,83,2120,3.8,85,2263,3.6,12,,2148,-71.0642,42.351
+52,Seaport Boulevard west of Sleeper Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3537,-71.0497,685,24295,24980,2.7,126,3367,3.6,161,2732,5.6,12,,2161,-71.0497,42.3537
+56,Summer Street east of Dorchester Avenue,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.351,-71.0519,523,16572,17095,3.1,118,1990,5.6,108,2230,4.6,12,,2226,-71.0519,42.351
+21,Columbia Road south of Quincy Street,December,Winter,2025,2025-12-09T05:00:00,"High 32°, Low 14°, Fair",42.3107,-71.0713,69,25120,25189,0.3,10,2947,0.3,9,3148,0.3,12,,2258,-71.0713,42.3107
+74,Tremont Street north of School Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3586,-71.06,594,13386,13980,4.2,114,1557,6.8,127,1786,6.6,12,,2345,-71.06,42.3586
+54,South Huntington Avenue south of Castleton Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3224,-71.1121,158,9775,9933,1.6,24,1461,1.6,34,1167,2.8,12,,2359,-71.1121,42.3224
+31,Dorchester Avenue north of Doris Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3137,-71.057,170,14515,14685,1.2,24,1411,1.7,32,1594,2,12,,2365,-71.057,42.3137
+19,Charles Street north of Revere Street,December,Winter,2025,2025-12-09T05:00:00,"High 32°, Low 14°, Fair",42.3597,-71.0708,287,4903,5190,5.5,70,588,10.6,67,767,8,12,,2368,-71.0708,42.3597
+39,Main Street south of Sullivan Square,December,Winter,2025,2025-12-09T05:00:00,"High 32°, Low 14°, Fair",42.384,-71.0725,215,15444,15659,1.4,51,2211,2.3,47,1946,2.4,12,,2370,-71.0725,42.384
+3,Atlantic Avenue south of Commercial Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3635,-71.0511,327,0,327,100,71,0,100,88,0,100,12,,2453,-71.0511,42.3635
+3,Atlantic Avenue south of Commercial Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3635,-71.0511,312,0,312,100,68,0,100,71,0,100,12,,2479,-71.0511,42.3635
+75,Huntington Avenue west of Evans Way,December,Winter,2025,2025-12-10T05:00:00,"High 48°, Low 32°, Fair",42.3365,-71.0986,497,22544,23041,2.2,80,2750,2.8,85,2776,3,12,,2560,-71.0986,42.3365
+26,Commonwealth Avenue west of Silber Way,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3496,-71.102,829,13900,14729,5.6,120,1556,7.2,140,1964,6.7,12,,2614,-71.102,42.3496
+68,Arlington Street south of Marlborough Street,December,Winter,2025,2025-12-03T05:00:00,"High 38°, Low 33°, Fair",42.3545,-71.072,388,17746,18134,2.1,79,2455,3.1,79,2453,3.1,12,,2715,-71.072,42.3545
+69,Beacon Street west of Charles Street,December,Winter,2025,2025-12-10T05:00:00,"High 48°, Low 32°, Fair",42.356,-71.0703,599,19122,19721,3,78,1974,3.8,143,2559,5.3,12,,2746,-71.0703,42.356
+21,Columbia Road south of Quincy Street,December,Winter,2025,2025-12-10T05:00:00,"High 48°, Low 32°, Fair",42.3107,-71.0713,80,25575,25655,0.3,12,2957,0.4,12,3222,0.4,12,,2754,-71.0713,42.3107
+45,Meridian Street south of Nay Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3829,-71.0393,30,19622,19652,0.2,4,2021,0.2,3,2441,0.1,12,,2771,-71.0393,42.3829
+62,Washington Street south of Hayward Place,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3528,-71.0626,502,3883,4385,11.4,114,365,23.8,63,514,10.9,12,,2779,-71.0626,42.3528
+66,Western Avenue west of Waverly Street,December,Winter,2025,2025-12-04T05:00:00,"High 40°, Low 18°, Fair",42.3622,-71.1419,275,9924,10199,2.7,60,1295,4.4,50,1482,3.3,12,,2868,-71.1419,42.3622
+55,Southwest Corridor Bicycle Path south of Heath Street,December,Winter,2025,2025-12-09T05:00:00,"High 32°, Low 14°, Fair",42.3238,-71.0996,579,0,579,100,143,0,100,123,0,100,12,,2896,-71.0996,42.3238
+89,Boylston Street west of Tremont Street,December,Winter,2025,2025-12-09T05:00:00,"High 32°, Low 14°, Fair",42.3525,-71.065,767,8063,8830,8.7,201,1068,15.8,164,1133,12.6,12,,2903,-71.065,42.3525

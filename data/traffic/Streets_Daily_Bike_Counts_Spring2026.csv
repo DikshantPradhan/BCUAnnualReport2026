@@ -1,0 +1,35 @@
+﻿count_id,location_name,month,season,year,date,weather,lat,long,day_bikes,day_veh,day_total,day_share,am_bike,am_veh,am_share,pm_bike,pm_veh,pm_share,month_id,notes,ObjectId,x,y
+77,Tremont Street west of Union Park,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3434,-71.0727,372,9951,10323,3.6,76,1253,5.7,93,1265,6.8,3,,38,-71.0727,42.3434
+23,Columbus Avenue west of Holyoke Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3441,-71.0775,363,8332,8695,4.2,88,1016,8,87,1210,6.7,3,,98,-71.0775,42.3441
+37,Longfellow Bridge west of Charles Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3614,-71.0734,1209,18078,19287,6.3,287,2139,11.8,271,2948,8.4,3,,266,-71.0734,42.3614
+55,Southwest Corridor Bicycle Path south of Heath Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3238,-71.0996,989,0,989,100,244,0,100,224,0,100,3,,299,-71.0996,42.3238
+8,Blue Hill Avenue north of Rexford Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.2714,-71.0937,61,26355,26416,0.2,9,3595,0.2,14,3186,0.4,3,,586,-71.0937,42.2714
+70,Boylston Street east of Arlington Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3522,-71.0694,753,8824,9577,7.9,204,1292,13.6,114,1450,7.3,3,,660,-71.0694,42.3522
+31,Dorchester Avenue north of Doris Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3137,-71.057,211,13137,13348,1.6,29,1379,2.1,43,1516,2.8,3,,763,-71.057,42.3137
+82,North Beacon Street west of Glencoe Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3559,-71.1482,94,10612,10706,0.9,17,1298,1.3,18,1738,1,3,,789,-71.1482,42.3559
+55,Southwest Corridor Bicycle Path south of Heath Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3238,-71.0996,1460,0,1460,100,290,0,100,353,0,100,3,,923,-71.0996,42.3238
+8,Blue Hill Avenue north of Rexford Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.2714,-71.0937,40,25455,25495,0.2,6,3489,0.2,4,2766,0.1,3,,946,-71.0937,42.2714
+12,BU Bridge north of Commonwealth Avenue,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3523,-71.1107,1852,28182,30034,6.2,370,3881,8.7,460,3709,11,3,,1119,-71.1107,42.3523
+89,Boylston Street west of Tremont Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3525,-71.065,1319,6669,7988,16.5,299,853,26,304,973,23.8,3,,1128,-71.065,42.3525
+56,Summer Street east of Dorchester Avenue,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.351,-71.0519,771,14526,15297,5,154,1771,8,193,2015,8.7,3,,1159,-71.0519,42.351
+9,Blue Hill Avenue north of Seaver Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3057,-71.0846,71,21865,21936,0.3,8,2467,0.3,6,2655,0.2,3,,1205,-71.0846,42.3057
+82,North Beacon Street west of Glencoe Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3559,-71.1482,150,10369,10519,1.4,17,1250,1.3,30,1659,1.8,3,,1376,-71.1482,42.3559
+89,Boylston Street west of Tremont Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3525,-71.065,814,7331,8145,10,219,956,18.6,153,1076,12.4,3,,1595,-71.065,42.3525
+70,Boylston Street east of Arlington Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3522,-71.0694,1234,8393,9627,12.8,301,1182,20.3,250,1314,16,3,,1631,-71.0694,42.3522
+42,Massachusetts Avenue south of Newmarket Square,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3261,-71.0662,369,18878,19247,1.9,50,2201,2.2,80,2439,3.2,3,,1682,-71.0662,42.3261
+31,Dorchester Avenue north of Doris Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3137,-71.057,296,13068,13364,2.2,38,1328,2.8,63,1540,3.9,3,,1773,-71.057,42.3137
+66,Western Avenue west of Waverly Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3622,-71.1419,458,9295,9753,4.7,90,1223,6.9,124,1407,8.1,3,,1793,-71.1419,42.3622
+44,Massachusetts Avenue north of Back Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3532,-71.0906,2998,20412,23410,12.8,622,2693,18.8,633,2873,18.1,3,,2137,-71.0906,42.3532
+73,Tremont Street north of Boylston Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3541,-71.0639,519,10972,11491,4.5,46,1146,3.9,134,1377,8.9,3,,2213,-71.0639,42.3541
+44,Massachusetts Avenue north of Back Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3532,-71.0906,4331,19857,24188,17.9,744,2541,22.6,1053,2835,27.1,3,,2272,-71.0906,42.3532
+73,Tremont Street north of Boylston Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3541,-71.0639,809,10951,11760,6.9,63,1112,5.4,238,1480,13.9,3,,2293,-71.0639,42.3541
+66,Western Avenue west of Waverly Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3622,-71.1419,347,9485,9832,3.5,77,1271,5.7,83,1443,5.4,3,,2297,-71.1419,42.3622
+18,Charles River Dam Bridge west of Leverett Circle,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3671,-71.0689,1010,36931,37941,2.7,250,4468,5.3,223,4264,5,3,,2313,-71.0689,42.3671
+12,BU Bridge north of Commonwealth Avenue,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3523,-71.1107,1460,27906,29366,5,344,3664,8.6,345,3887,8.2,3,,2358,-71.1107,42.3523
+37,Longfellow Bridge west of Charles Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3614,-71.0734,1774,17549,19323,9.2,373,2211,14.4,471,2983,13.6,3,,2360,-71.0734,42.3614
+18,Charles River Dam Bridge west of Leverett Circle,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3671,-71.0689,1616,36405,38021,4.3,323,4334,6.9,446,4244,9.5,3,,2484,-71.0689,42.3671
+77,Tremont Street west of Union Park,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3434,-71.0727,516,10344,10860,4.8,76,1308,5.5,133,1168,10.2,3,,2576,-71.0727,42.3434
+42,Massachusetts Avenue south of Newmarket Square,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3261,-71.0662,472,18977,19449,2.4,54,2154,2.4,106,2565,4,3,,2631,-71.0662,42.3261
+23,Columbus Avenue west of Holyoke Street,March,Spring,2026,2026-03-10T04:00:00,"High 74°, Low 46°, Fair",42.3441,-71.0775,480,8127,8607,5.6,106,972,9.8,116,1216,8.7,3,,2657,-71.0775,42.3441
+56,Summer Street east of Dorchester Avenue,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.351,-71.0519,476,14654,15130,3.1,120,2116,5.4,106,1972,5.1,3,,2693,-71.0519,42.351
+9,Blue Hill Avenue north of Seaver Street,March,Spring,2026,2026-03-11T04:00:00,"High 58°, Low 39°, Fair",42.3057,-71.0846,42,21219,21261,0.2,7,2397,0.3,6,2358,0.3,3,,2836,-71.0846,42.3057

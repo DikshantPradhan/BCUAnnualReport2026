@@ -1,0 +1,19 @@
+﻿count_id,location_name,month,season,year,date,weather,lat,long,day_bikes,day_veh,day_total,day_share,am_bike,am_veh,am_share,pm_bike,pm_veh,pm_share,month_id,notes,ObjectId,x,y
+8,Blue Hill Avenue north of Rexford Street,September,Fall,2026,2026-09-15T04:00:00,"High 64°, Low 54°, Fair",42.2714,-71.0937,97,27234,27331,0.4,16,3466,0.5,20,3551,0.6,9,,279,-71.0937,42.2714
+2,Adams Street south of Washington Street,September,Fall,2026,2026-09-16T04:00:00,"High 79°, Low 56°, Fair",42.272,-71.068,26,19517,19543,0.1,0,2668,0,5,2751,0.2,9,,415,-71.068,42.272
+21,Columbia Road south of Quincy Street,September,Fall,2026,2026-09-15T04:00:00,"High 64°, Low 54°, Fair",42.3107,-71.0713,181,24979,25160,0.7,28,2738,1,24,3029,0.8,9,,429,-71.0713,42.3107
+7,Belgrade Avenue east of Anawan Avenue,September,Fall,2026,2026-09-16T04:00:00,"High 79°, Low 56°, Fair",42.2861,-71.1471,115,8395,8510,1.4,22,1070,2,26,1276,2,9,,519,-71.1471,42.2861
+32,Dorchester Avenue north of Dracut Street,September,Fall,2026,2026-09-16T04:00:00,"High 79°, Low 56°, Fair",42.2873,-71.0639,112,7828,7940,1.4,8,832,1,23,993,2.3,9,,718,-71.0639,42.2873
+8,Blue Hill Avenue north of Rexford Street,September,Fall,2026,2026-09-16T04:00:00,"High 79°, Low 56°, Fair",42.2714,-71.0937,93,27207,27300,0.3,9,3498,0.3,17,3407,0.5,9,,745,-71.0937,42.2714
+16,Centre Street north of Harris Avenue,September,Fall,2026,2026-09-16T04:00:00,"High 79°, Low 56°, Fair",42.3113,-71.1145,437,12565,13002,3.4,50,1470,3.3,96,1409,6.4,9,,780,-71.1145,42.3113
+32,Dorchester Avenue north of Dracut Street,September,Fall,2026,2026-09-15T04:00:00,"High 64°, Low 54°, Fair",42.2873,-71.0639,124,7770,7894,1.6,18,874,2,24,970,2.4,9,,1021,-71.0639,42.2873
+2,Adams Street south of Washington Street,September,Fall,2026,2026-09-15T04:00:00,"High 64°, Low 54°, Fair",42.272,-71.068,34,19396,19430,0.2,6,2682,0.2,4,2808,0.1,9,,1093,-71.068,42.272
+7,Belgrade Avenue east of Anawan Avenue,September,Fall,2026,2026-09-15T04:00:00,"High 64°, Low 54°, Fair",42.2861,-71.1471,134,8095,8229,1.6,18,1061,1.7,32,1191,2.6,9,,1199,-71.1471,42.2861
+21,Columbia Road south of Quincy Street,September,Fall,2026,2026-09-16T04:00:00,"High 79°, Low 56°, Fair",42.3107,-71.0713,229,24972,25201,0.9,22,2805,0.8,25,3208,0.8,9,,1897,-71.0713,42.3107
+9,Blue Hill Avenue north of Seaver Street,September,Fall,2026,2026-09-16T04:00:00,"High 79°, Low 56°, Fair",42.3057,-71.0846,143,21489,21632,0.7,12,2435,0.5,29,2645,1.1,9,,2213,-71.0846,42.3057
+9,Blue Hill Avenue north of Seaver Street,September,Fall,2026,2026-09-17T04:00:00,"High 76°, Low 64°, Fair",42.3057,-71.0846,95,21889,21984,0.4,8,2343,0.3,9,2700,0.3,9,,2498,-71.0846,42.3057
+11,Brookline Avenue south of Francis Street,September,Fall,2026,2026-09-17T04:00:00,"High 76°, Low 64°, Fair",42.3367,-71.1096,0,0,0,,129,2375,5.2,107,2993,3.5,9,,2542,-71.1096,42.3367
+17,Centre Street west of Wise Street,September,Fall,2026,2026-09-15T04:00:00,"High 64°, Low 54°, Fair",42.3229,-71.1015,394,13816,14210,2.8,50,1503,3.2,80,1901,4,9,,2576,-71.1015,42.3229
+16,Centre Street north of Harris Avenue,September,Fall,2026,2026-09-15T04:00:00,"High 64°, Low 54°, Fair",42.3113,-71.1145,399,11862,12261,3.3,62,1489,4,91,1422,6,9,,2588,-71.1145,42.3113
+17,Centre Street west of Wise Street,September,Fall,2026,2026-09-16T04:00:00,"High 79°, Low 56°, Fair",42.3229,-71.1015,412,14415,14827,2.8,59,1542,3.7,89,1873,4.5,9,,2626,-71.1015,42.3229
+11,Brookline Avenue south of Francis Street,September,Fall,2026,2026-09-16T04:00:00,"High 79°, Low 56°, Fair",42.3367,-71.1096,0,0,0,,126,2262,5.3,123,2920,4,9,,2805,-71.1096,42.3367
