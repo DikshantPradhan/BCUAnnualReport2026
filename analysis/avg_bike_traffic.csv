@@ -1,56 +1,56 @@
-,location_name,day_bikes
-0,A Street north of Iron Street,596.5
-1,Adams Street south of Washington Street,32.0
-2,Arlington Street south of Marlborough Street,389.0
-3,Atlantic Avenue south of Commercial Street,661.0
-4,BU Bridge north of Commonwealth Avenue,2073.75
-5,Beacon Street east of Mountfort Street,1037.0
-6,Beacon Street east of Raleigh Street,732.0
-7,Beacon Street west of Charles Street,548.5
-8,Beacon Street west of Dartmouth Street,707.5
-9,Belgrade Avenue east of Anawan Avenue,92.25
-10,Blue Hill Avenue north of Rexford Street,74.83333333333333
-11,Blue Hill Avenue north of Seaver Street,87.75
-12,Boylston Street east of Arlington Street,851.5
-13,Boylston Street west of Fairfield Street,1005.5
-14,Boylston Street west of Tremont Street,1236.6666666666667
-15,Brookline Avenue south of Francis Street,283.75
-16,Cambridge Street east of Lincoln Street,490.0
-17,Cambridge Street west of Staniford Street,1101.5
-18,Centre Street north of Harris Avenue,341.8333333333333
-19,Centre Street west of Wise Street,403.0
-20,Charles River Dam Bridge west of Leverett Circle,1444.5
-21,Charles Street north of Boylston Street,333.0
-22,Charles Street north of Revere Street,477.75
-23,Chestnut Hill Avenue north of Embassy Road,84.0
-24,Columbia Road south of Quincy Street,160.5
-25,Columbus Avenue west of Holyoke Street,437.8333333333333
-26,Commonwealth Avenue east of Berkeley Street,1143.0
-27,Commonwealth Avenue west of Silber Way,1090.0
-28,D Street south of Fargo Street,277.0
-29,Dorchester Avenue north of Doris Street,274.6666666666667
-30,Dorchester Avenue north of Dracut Street,118.0
-31,Dorchester Avenue south of Greenwich Street,343.5
-32,Franklin Street north of Alcott Street,557.5
-33,Huntington Avenue west of Evans Way,443.5
-34,Longfellow Bridge west of Charles Street,1560.8333333333333
-35,Longwood Avenue east of Pilgrim Road,983.75
-36,Main Street south of Sullivan Square,310.0
-37,Massachusetts Avenue north of Back Street,3798.6666666666665
-38,Massachusetts Avenue south of Newmarket Square,474.6666666666667
-39,Meridian Street south of Nay Street,70.66666666666667
-40,Neponset Greenway east of Blue Hill Avenue,246.0
-41,North Beacon Street west of Glencoe Street,122.0
-42,Seaport Boulevard west of Sleeper Street,1156.75
-43,South Huntington Avenue south of Castleton Street,220.25
-44,Southwest Corridor Bicycle Path south of Heath Street,1197.8333333333333
-45,Stuart Street east of Tremont Street,459.0
-46,Summer Street east of Dorchester Avenue,735.6666666666666
-47,Tremont Street north of Boylston Street,718.8333333333334
-48,Tremont Street north of School Street,555.0
-49,Tremont Street west of Union Park,489.1666666666667
-50,Warren Street north of Walnut Avenue,214.25
-51,Washington Street north of Bexley Road,414.5
-52,Washington Street south of Hayward Place,676.0
-53,Western Avenue east of Hague Street,768.5
-54,Western Avenue west of Waverly Street,340.5
+,location_name,day_bikes,lat,lon
+0,A Street north of Iron Street,596.5,42.3459,-71.052
+1,Adams Street south of Washington Street,32.0,42.272,-71.068
+2,Arlington Street south of Marlborough Street,389.0,42.3545,-71.072
+3,Atlantic Avenue south of Commercial Street,661.0,42.3635,-71.0511
+4,BU Bridge north of Commonwealth Avenue,2073.75,42.3523,-71.1107
+5,Beacon Street east of Mountfort Street,1037.0,42.3478,-71.101
+6,Beacon Street east of Raleigh Street,732.0,42.3496,-71.0939
+7,Beacon Street west of Charles Street,548.5,42.356,-71.0703
+8,Beacon Street west of Dartmouth Street,707.5,42.3536,-71.0793
+9,Belgrade Avenue east of Anawan Avenue,92.25,42.2861,-71.1471
+10,Blue Hill Avenue north of Rexford Street,74.83333333333333,42.2714,-71.0937
+11,Blue Hill Avenue north of Seaver Street,87.75,42.3057,-71.0846
+12,Boylston Street east of Arlington Street,851.5,42.3522,-71.0694
+13,Boylston Street west of Fairfield Street,1005.5,42.3487,-71.0824
+14,Boylston Street west of Tremont Street,1236.6666666666667,42.3525,-71.065
+15,Brookline Avenue south of Francis Street,283.75,42.3367,-71.1096
+16,Cambridge Street east of Lincoln Street,490.0,42.3577,-71.1272
+17,Cambridge Street west of Staniford Street,1101.5,42.3613,-71.0642
+18,Centre Street north of Harris Avenue,341.8333333333333,42.3113,-71.1145
+19,Centre Street west of Wise Street,403.0,42.3229,-71.1015
+20,Charles River Dam Bridge west of Leverett Circle,1444.5,42.3671,-71.0689
+21,Charles Street north of Boylston Street,333.0,42.353,-71.0676
+22,Charles Street north of Revere Street,477.75,42.3597,-71.0708
+23,Chestnut Hill Avenue north of Embassy Road,84.0,42.3417,-71.1544
+24,Columbia Road south of Quincy Street,160.5,42.3107,-71.0713
+25,Columbus Avenue west of Holyoke Street,437.8333333333333,42.3441,-71.0775
+26,Commonwealth Avenue east of Berkeley Street,1143.0,42.353,-71.0733
+27,Commonwealth Avenue west of Silber Way,1090.0,42.3496,-71.102
+28,D Street south of Fargo Street,277.0,42.345,-71.0436
+29,Dorchester Avenue north of Doris Street,274.6666666666667,42.3137,-71.057
+30,Dorchester Avenue north of Dracut Street,118.0,42.2873,-71.0639
+31,Dorchester Avenue south of Greenwich Street,343.5,42.3025,-71.0596
+32,Franklin Street north of Alcott Street,557.5,42.3581,-71.1331
+33,Huntington Avenue west of Evans Way,443.5,42.3365,-71.0986
+34,Longfellow Bridge west of Charles Street,1560.8333333333333,42.3614,-71.0734
+35,Longwood Avenue east of Pilgrim Road,983.75,42.3392,-71.1078
+36,Main Street south of Sullivan Square,310.0,42.384,-71.0725
+37,Massachusetts Avenue north of Back Street,3798.6666666666665,42.3532,-71.0906
+38,Massachusetts Avenue south of Newmarket Square,474.6666666666667,42.3261,-71.0662
+39,Meridian Street south of Nay Street,70.66666666666667,42.3829,-71.0393
+40,Neponset Greenway east of Blue Hill Avenue,246.0,42.2672,-71.0934
+41,North Beacon Street west of Glencoe Street,122.0,42.3559,-71.1482
+42,Seaport Boulevard west of Sleeper Street,1156.75,42.3537,-71.0497
+43,South Huntington Avenue south of Castleton Street,220.25,42.3224,-71.1121
+44,Southwest Corridor Bicycle Path south of Heath Street,1197.8333333333333,42.3238,-71.0996
+45,Stuart Street east of Tremont Street,459.0,42.351,-71.0642
+46,Summer Street east of Dorchester Avenue,735.6666666666666,42.351,-71.0519
+47,Tremont Street north of Boylston Street,718.8333333333334,42.3541,-71.0639
+48,Tremont Street north of School Street,555.0,42.3586,-71.06
+49,Tremont Street west of Union Park,489.1666666666667,42.3434,-71.0727
+50,Warren Street north of Walnut Avenue,214.25,42.3244,-71.0829
+51,Washington Street north of Bexley Road,414.5,42.2883,-71.1261
+52,Washington Street south of Hayward Place,676.0,42.3528,-71.0626
+53,Western Avenue east of Hague Street,768.5,42.3639,-71.1217
+54,Western Avenue west of Waverly Street,340.5,42.3622,-71.1419
