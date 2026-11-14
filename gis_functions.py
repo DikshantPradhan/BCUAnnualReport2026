@@ -23,19 +23,30 @@ def segment_from_pts(pt1, pt2, name="segment", town="town", project="project", c
     )
     return(segment)
 
+# def street_intersection(city, target_street, query_street):
+#     name = city.STREETNAME.fillna("").str.upper()
+#     tgt_st = city[name == target_street]
+#     query_st = city[name == query_street]
+    
+#     # Merge the many Cambridge St segments into continuous lines
+#     merged = linemerge(tgt_st.geometry.union_all())
+#     # parts = list(merged.geoms) if hasattr(merged, "geoms") else [merged]
+    
+#     # Where each cross street meets Cambridge St
+#     intersect_pt = query_st.geometry.union_all().intersection(merged)
+#     # if len(intersect_pt) > 0:
+#     #     intersect_pt = intersect_pt[0]
+#     return(intersect_pt)
+
 def street_intersection(city, target_street, query_street):
     name = city.STREETNAME.fillna("").str.upper()
     tgt_st = city[name == target_street]
     query_st = city[name == query_street]
     
-    # Merge the many Cambridge St segments into continuous lines
+    # Merge the segments into continuous lines
     merged = linemerge(tgt_st.geometry.union_all())
     # parts = list(merged.geoms) if hasattr(merged, "geoms") else [merged]
-    
-    # Where each cross street meets Cambridge St
     intersect_pt = query_st.geometry.union_all().intersection(merged)
-    # if len(intersect_pt) > 0:
-    #     intersect_pt = intersect_pt[0]
     return(intersect_pt)
 
 def segment_from_intersections(city, start1, start2, end1, end2, 
@@ -159,43 +170,99 @@ def street_from_coords(lat, lon, city, max_dist=100):
         return "coord error"
     return hit.STREETNAME.title()
 
-def count_points_along_streets(city, streets, points, seg_length=100, dist=50,
-                               lat_col="latitude", long_col="longitude", crs_type="EPSG:4326"):
-    # Split each street in `streets` into sections of `seg_length` meters and count how many
-    # rows of `points` (a DataFrame with lat/lon columns) are within `dist` meters of each section.
-    # Returns a GeoDataFrame (CRS of `city`) with one row per segment and a `count` column.
+# def count_points_along_streets(city, streets, points, seg_length=100, dist=50,
+#                                lat_col="latitude", long_col="longitude", crs_type="EPSG:4326"):
+#     # Split each street in `streets` into sections of `seg_length` meters and count how many
+#     # rows of `points` (a DataFrame with lat/lon columns) are within `dist` meters of each section.
+#     # Returns a GeoDataFrame (CRS of `city`) with one row per segment and a `count` column.
 
-    pts = points.dropna(subset=[lat_col, long_col])
-    pts = gpd.GeoDataFrame(geometry=gpd.points_from_xy(pts[long_col], pts[lat_col]), crs=crs_type).to_crs(city.crs)
+#     pts = points.dropna(subset=[lat_col, long_col])
+#     pts = gpd.GeoDataFrame(geometry=gpd.points_from_xy(pts[long_col], pts[lat_col]), crs=crs_type).to_crs(city.crs)
+
+#     rows = []
+#     for street in streets:
+#         street = street.upper()
+#         match = city[city.STREETNAME.fillna("").str.upper() == street]
+#         if match.empty:
+#             raise ValueError(f"No street named {street!r} in `city`")
+
+#         # one continuous line per connected piece of the street
+#         geom = match.geometry.union_all()
+#         merged = linemerge(geom) if geom.geom_type == "MultiLineString" else geom
+#         parts = list(merged.geoms) if hasattr(merged, "geoms") else [merged]
+
+#         for part_id, part in enumerate(parts):
+#             for i, start in enumerate(np.arange(0, part.length, seg_length)):
+#                 end = min(start + seg_length, part.length)   # last section of a piece may be shorter
+#                 rows.append({"STREETNAME": street, "part": part_id, "segment": i,
+#                              "start_m": start, "end_m": end, "length_m": end - start,
+#                              "geometry": substring(part, start, end)})
+
+#     segs = gpd.GeoDataFrame(rows, geometry="geometry", crs=city.crs)
+
+#     # count points within `dist` of each segment (buffer, then spatial join)
+#     buf = segs[["geometry"]].copy()
+#     buf["geometry"] = segs.buffer(dist)
+#     joined = gpd.sjoin(buf, pts, how="left", predicate="contains")
+#     segs["count"] = joined["index_right"].notna().groupby(level=0).sum().reindex(segs.index).astype(int)
+#     return segs
+
+def split_streets(city, streets, seg_length=100, frame_length=-1):
+    # Merge all pieces of each street in `streets` into one ordered route, then cut it into
+    # sections of `seg_length` meters. Returns a GeoDataFrame (CRS of `city`), one row per segment.
+    if frame_length < 0:
+        frame_length = seg_length
 
     rows = []
     for street in streets:
         street = street.upper()
         match = city[city.STREETNAME.fillna("").str.upper() == street]
         if match.empty:
-            raise ValueError(f"No street named {street!r} in `city`")
+            continue
+            # raise ValueError(f"No street named {street!r} in `city`")
 
-        # one continuous line per connected piece of the street
         geom = match.geometry.union_all()
         merged = linemerge(geom) if geom.geom_type == "MultiLineString" else geom
         parts = list(merged.geoms) if hasattr(merged, "geoms") else [merged]
+        parts = [p for p in parts if p.length > 0]
 
-        for part_id, part in enumerate(parts):
-            for i, start in enumerate(np.arange(0, part.length, seg_length)):
-                end = min(start + seg_length, part.length)   # last section of a piece may be shorter
-                rows.append({"STREETNAME": street, "part": part_id, "segment": i,
-                             "start_m": start, "end_m": end, "length_m": end - start,
-                             "geometry": substring(part, start, end)})
+        # point every piece the same way (west->east for E-W streets, south->north for N-S),
+        # then order the pieces along the street
+        minx, miny, maxx, maxy = merged.bounds
+        axis = 0 if (maxx - minx) >= (maxy - miny) else 1
+        parts = [LineString(list(p.coords)[::-1]) if p.coords[0][axis] > p.coords[-1][axis] else p for p in parts]
+        parts.sort(key=lambda p: p.coords[0][axis])
 
-    segs = gpd.GeoDataFrame(rows, geometry="geometry", crs=city.crs)
+        # treat the pieces as one long street: piece k starts at offsets[k] meters
+        offsets = np.concatenate([[0], np.cumsum([p.length for p in parts])])
+        total = offsets[-1]
+
+        for i, start in enumerate(np.arange(0, total, frame_length)):
+            end = min(start + seg_length, total)
+            # if i > 0 and end - start < seg_length - 1e-9: break   # stop once a window is shorter than seg_length
+            pieces = []
+            for p, off in zip(parts, offsets):
+                a, b = max(start, off) - off, min(end, off + p.length) - off
+                if b - a > 1e-9:
+                    pieces.append(substring(p, a, b))
+            geom_i = pieces[0] if len(pieces) == 1 else linemerge(pieces)   # MultiLineString if it spans a gap
+            rows.append({"STREETNAME": street, "segment": i, "start_m": start, "end_m": end,
+                         "length_m": end - start,"geometry": geom_i})
+
+    df = gpd.GeoDataFrame(rows, geometry="geometry", crs=city.crs)
+    df['segment_id'] = df['STREETNAME'] + df['segment'].astype(str)
+    return df
+
+def count_points_along_segments(segments, points, dist=5, lat_col="latitude", long_col="longitude", crs_type="EPSG:4326"):
+    pts = points.dropna(subset=[lat_col, long_col])
+    pts = gpd.GeoDataFrame(geometry=gpd.points_from_xy(pts[long_col], pts[lat_col]), crs=crs_type).to_crs(segments.crs)
 
     # count points within `dist` of each segment (buffer, then spatial join)
-    buf = segs[["geometry"]].copy()
-    buf["geometry"] = segs.buffer(dist)
+    buf = segments[["geometry"]].copy()
+    buf["geometry"] = segments.buffer(dist)
     joined = gpd.sjoin(buf, pts, how="left", predicate="contains")
-    segs["count"] = joined["index_right"].notna().groupby(level=0).sum().reindex(segs.index).astype(int)
-    return segs
-
+    segments["count"] = joined["index_right"].notna().groupby(level=0).sum().reindex(segments.index).astype(int)
+    return segments
 
 def plot_segment_counts(segments, count_col="count", 
                         cmap=LinearSegmentedColormap.from_list("blue_red", ["#2b6cb0", "#bdbdbd", "#c62828"]), 
@@ -244,5 +311,14 @@ def fix_street_abbrevs(st_list):
         st = re.sub(' ST$', " STREET", st)
         st = re.sub(' TER$', " TERRACE", st)
         st = re.sub(' WHRF$', " WHARF", st)
+        st = re.sub(' NULL$', "", st)
+        st = re.sub(' BRG$', " BRIDGE", st)
+        st = re.sub('\\.', "", st)
+
+        ## specific changes
+        # st = re.sub('CENTER PLAZA$', "CAMBRIDGE STREET", st)
+        st = re.sub('THIRTEENTH STREET$', "13TH STREET", st)
+        st = re.sub('SUDBURY STREET$', "NEW SUDBURY STREET", st)
+        st = st.strip()
         fixed_streets.append(st) 
     return(fixed_streets)
